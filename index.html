@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="icon" href="images/B.png" type="image/png" sizes="any">
+    <title>🅱️izza 🅱️ut</title>
+  </head>
+  <div id="map" style="width:100%;height:1000px;"></div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGsY2BfQTHCXghhRLFt39dfZKw9Dfamws&callback=initMap"
+          type="text/javascript"></script>
+  <script src="map.js"></script>
+  <script src="search.js"></script>
+  <body onload="initMap()">
+    <nav> <!-- Navigation Bar -->
+      <ul> 
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html">Discover</a></li>
+        <li><a href="index.html">Rate</a></li>
+        <li><a href="index.html">About</a></li>
+        <li id="searchBar">
+          <input type="text" placeholder="Search..">
+          <button type="submit" id="search"><img src="images/search.png" onkeypress="search()"></button>
+        </li>
+      </ul>
+    </nav> <!-- Navigation Bar End -->
+
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent varius magna sit amet turpis ullamcorper pretium. Sed nec magna sit amet odio malesuada aliquet. Fusce vel urna pretium, interdum quam sed, ornare erat. Donec ultricies mattis lacus quis volutpat. Praesent et enim aliquam, viverra purus ut, laoreet erat. Donec mattis leo tortor, quis lacinia magna aliquam at. Curabitur ornare augue sit amet pharetra scelerisque. Nullam id finibus nulla, eget euismod nulla. Nunc sollicitudin sem bibendum ligula sodales, id congue orci lacinia. Cras aliquet augue lobortis neque lacinia, quis consequat tortor consequat. Quisque a urna vestibulum, ultrices ipsum sit amet, rhoncus urna. Aliquam mattis orci sed nibh mattis, in dignissim neque rutrum. Nam ipsum erat, consequat nec euismod ut, egestas eu ipsum. Morbi non accumsan enim.</p>
+    </div>
+    
+  </body>
+</html>
