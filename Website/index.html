@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="main.css"/>
-    <link rel="icon" href="images/B.png" type="image/png" sizes="any">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="icon" href="images/B.png" type="image/png" sizes="any" />
     <title>🅱️izza 🅱️ut</title>
+
+    <!-- Boostrap CSS
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    /> -->
   </head>
 
-
   <body onload="initMap()">
-    <nav> <!-- Navigation Bar -->
-      <ul> 
+    <!-- <nav> -->
+    <!-- Navigation Bar -->
+    <!-- <ul>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="Discover.html">Discover</a></li>
         <li><a href="Rate.html">Rate</a></li>
         <li><a href="About.html">About</a></li>
         <li id="searchBar">
-          <input type="text" placeholder="Search..">
-          <button type="submit"><img src="images/search.png"></button>
+          <input type="text" placeholder="Search.." />
+          <button type="submit"><img src="images/search.png" /></button>
         </li>
       </ul>
-    </nav> <!-- Navigation Bar End -->
+    </nav> -->
+    <!-- Navigation Bar End -->
 
-    <div class="content">
-      <h1>Welcome to 🅱️izza 🅱️ut</h1>
-      <p>Hungry? But not quite sure if you want to make a meal or order in well 🅱️izza 🅱️ut has your solution. Simply let us know what is in your fridge and where you are. So 🅱️izza 🅱️ut can give you a list of personalized options including recipes that can be made with ingredients you have. As well as local restaurant options that either deliver or are only a short distance away.
-        <br><br>🅱️izza 🅱️ut is your solution to the age old question “What am I going to do for dinner?”
-      </p>
+    <div class="header">
+      <div class="container">
+        <h1 style="color: azure;">Welcome to 🅱️izza 🅱️ut</h1>
+      </div>
     </div>
 
-    
+    <div class="content">
+      <p>
+        Hungry? But not quite sure if you want to make a meal or order in well
+        🅱️izza 🅱️ut has your solution. Simply let us know what is in your fridge
+        and where you are. So 🅱️izza 🅱️ut can give you a list of personalized
+        options including recipes that can be made with ingredients you have. As
+        well as local restaurant options that either deliver or are only a short
+        distance away. <br /><br />🅱️izza 🅱️ut is your solution to the age old
+        question “What am I going to do for dinner?”
+      </p>
+
+      <!-- Option Buttons -->
+      <div class="Options">
+        <button class="MainButton EatIn">
+          <span class="titleName">Eat In</span>
+          <span class="description"
+            >Put in whats in your fridge and look for a recipe to cook.</span
+          >
+        </button>
+        <button class="MainButton EatOut">
+          <span class="titleName">Eat Out</span>
+          <span class="description">Look for a restaurant to eat at.</span>
+        </button>
+
+        <button class="MainButton DontKnowWhat">
+          <span class="titleName">Don't Know What</span>
+          <span class="description"
+            >Not sure if you want to eat in or out? Let us help you decide</span
+          >
+        </button>
+        <!-- Option Buttons -->
+      </div>
+    </div>
   </body>
 </html>
