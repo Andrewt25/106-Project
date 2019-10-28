@@ -22,7 +22,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #cc6600;
+  background-color: #222;
 }
 
 nav li {
@@ -38,11 +38,11 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #c13100;
+  background-color: #ff1e1e;
 }
 
 .active {
-  background-color: #ff9900;
+  background-color: #4c4c52;
 }
 
 #searchBar {
@@ -73,6 +73,7 @@ nav button img {
 
 .content {
   /* background-color: #fffbd0; */
+  padding-top: 5%;
   width: 60%;
   height: 100%;
   margin-left: auto;
@@ -86,6 +87,23 @@ nav button img {
   margin-right: 4%;
   text-align: center;
 }
+
+.mainDescription {
+  /* background-color: #fffbd0; */
+  width: 60%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.mainDescription p {
+  padding-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+
 h1 {
   text-align: center;
 }
