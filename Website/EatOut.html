@@ -5,9 +5,11 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="icon" href="images/B.png" type="image/png" sizes="any" />
     <title>🅱️izza 🅱️ut</title>
+    <script src="map.js"></script>
   </head>
 
-  <body>
+
+  <body onload="initMap()">
     <nav>
       <!-- Navigation Bar -->
       <ul>
@@ -31,7 +33,7 @@
     <div id="map"></div>
     <script src="main.js"></script>
     <script src="map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGsY2BfQTHCXghhRLFt39dfZKw9Dfamws&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGsY2BfQTHCXghhRLFt39dfZKw9Dfamws&callback=initMap&libraries=places"></script>
   
   </body>
 </html>
