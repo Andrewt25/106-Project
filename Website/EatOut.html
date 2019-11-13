@@ -5,17 +5,11 @@
     <link rel="stylesheet" href="main.css" />
     <link rel="icon" href="images/B.png" type="image/png" sizes="any" />
     <title>🅱️izza 🅱️ut</title>
+    <script src="map.js"></script>
   </head>
 
-  <script
-    async
-    defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGsY2BfQTHCXghhRLFt39dfZKw9Dfamws&callback=initMap"
-    type="text/javascript"
-  ></script>
-  <script src="map.js"></script>
 
-  <body>
+  <body onload="initMap()">
     <nav>
       <!-- Navigation Bar -->
       <ul>
@@ -26,6 +20,16 @@
       </ul>
     </nav>
     <!-- Navigation Bar End -->
+
+    <form class="map_text">
+      <input type="text" placeholder="Address..."> <br>
+      <button id="myLocation">Get My Location</button> <button id="Enter">Enter</button>
+    </form>
+
     <div id="map"></div>
+    <script src="main.js"></script>
+    <script src="map.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGsY2BfQTHCXghhRLFt39dfZKw9Dfamws&callback=initMap&libraries=places"></script>
+  
   </body>
 </html>
