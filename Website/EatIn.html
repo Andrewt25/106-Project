@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="EatIn.css" />
     <link rel="icon" href="images/B.png" type="image/png" sizes="any" />
     <title>🅱️izza 🅱️ut</title>
   </head>
@@ -21,10 +22,22 @@
       </ul>
     </nav>
     <!-- Navigation Bar End -->
-
     <div class="content">
-      <h1>Coming soon...</h1>
-      <p>Find your recipes</p>
+      <div id="getFridge">
+        <h1 style="text-align: left;">What's In Your Fridge</h1>
+        <p style="text-align: left; padding-top: 0%; margin-left: 0%;">
+          Type in the items one at a time
+        </p>
+        <input type="text" id="fridgeInputField" />
+        <button type="button" id="enterButton" onclick="getIngredient()">
+          Enter
+        </button>
+      </div>
+      <div id="displayFridge">
+        <ul id="list"></ul>
+        <button>Get Recipes</button>
+      </div>
+      <script src="EatIn.js"></script>
     </div>
   </body>
 </html>
