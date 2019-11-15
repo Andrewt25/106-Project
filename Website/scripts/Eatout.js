@@ -3,5 +3,5 @@ document.getElementById("Enter").onclick = function() {
 };
 
 document.getElementById("myLocation").onclick = function() {
-  alert("in progress");
+  findLocation();
 };

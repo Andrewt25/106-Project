@@ -1,0 +1,139 @@
+html {
+  height: 97%;
+}
+
+body {
+  height: 97%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: burlywood; */
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #222;
+}
+
+nav li {
+  float: left;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ff1e1e;
+}
+
+.active {
+  background-color: #4c4c52;
+}
+
+#searchBar {
+  float: right;
+  margin: 11px 30px 0px 0px;
+}
+
+nav input {
+  height: 15px;
+}
+
+nav button {
+  float: right;
+  background: #ddd;
+  cursor: pointer;
+  border: 0px;
+}
+
+nav button:hover {
+  background: #ccc;
+}
+
+nav button img {
+  padding-top: 2px;
+  width: 13px;
+  height: 14px;
+}
+
+.content {
+  /* background-color: #fffbd0; */
+  padding-top: 5%;
+  width: 60%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.content p {
+  padding-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.mainDescription {
+  /* background-color: #fffbd0; */
+  width: 60%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.mainDescription p {
+  padding-top: 2%;
+  margin-left: 4%;
+  margin-right: 4%;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Options {
+  display: flex;
+  justify-content: center;
+}
+/* Header */
+.header .container {
+  max-width: 100%;
+  padding: 5%;
+  background-color: #222;
+}
+
+/* Main Page Buttons */
+.MainButton {
+  width: 80%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+.titleName {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.description {
+  display: block;
+  padding-top: 5%;
+  font-size: 15px;
+}
+/* https://www.colorcombos.com/orange-red-color-schemes.html */

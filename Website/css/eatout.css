@@ -1,0 +1,38 @@
+.map_text {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  
+#map {
+    height: 80%;
+    width: 90%; /* The width is the width of the web page */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+input {
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px 0px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.btn {
+    width: 45%;
+    height: 10%;
+    margin-top: 3px;
+    padding: 5px 0px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}
