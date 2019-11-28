@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    
+
     <link rel="stylesheet" href="../css/main.css" />
     <link rel="stylesheet" href="../css/EatIn.css" />
-    <link rel="icon" href="images/B.png" type="image/png" sizes="any" />
+    <!-- <link rel="icon" href="images/B.png" type="image/png" sizes="any" /> -->
     <title>🅱️izza 🅱️ut</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
       </ul>
     </nav>
     <!-- Navigation Bar End -->
-    <div class="content">
+    <div class="content row">
       <div id="getFridge">
         <p>
           Since you're eating in, 🅱️izza 🅱️ut will do our best to help save as
@@ -40,6 +40,12 @@
         <ul id="list"></ul>
         <button>Get Recipes</button>
       </div>
+      <div id="displayRecipes" style="display:none;">
+        <div id="allrecipes"></div>
+      </div>
+      <button id="next_recipe_button" onclick="onClickRecipe()">
+        See Recipes
+      </button>
       <script src="../scripts/EatIn.js"></script>
     </div>
   </body>
